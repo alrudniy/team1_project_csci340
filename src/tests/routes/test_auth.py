@@ -16,5 +16,10 @@ def test_register(client: TestClient):
     assert user_data["email"] == "drew@gmail.com"
     assert "id" in user_data
 
+    def test_login(client: TestClient):
+        return TestClient
+
+# Alan 2 Branch Test
+
 
 
